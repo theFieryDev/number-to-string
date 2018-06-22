@@ -1,0 +1,38 @@
+{
+  "name": "number-to-string",
+  "version": "0.5.0",
+  "description": "Change number to textual string for JavaScript.",
+  "main": "lib/number-to-string.js",
+  "scripts": {
+    "test": "jest --coverage --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theFieryDev/number-to-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theFieryDev/number-to-string/issues",
+    "email": "theFieryDev@gmail.com"
+  },
+  "keywords": [
+    "formatting"
+  ],
+  "author": "FieryDev <theFieryDev@gmail.com> (https://www.theFieryDev.com)",
+  "contributors": [
+    "theFieryDev <theFieryDev@gmail.com> (https://www.theFieryDev.com)",
+    "MaddHacker <hacker@maddhacker.com> (https://www.MaddHacker.com)"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/theFieryDev/number-to-string#readme",
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.14.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.1.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
