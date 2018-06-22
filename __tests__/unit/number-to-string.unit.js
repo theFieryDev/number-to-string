@@ -27,10 +27,10 @@ describe('Number2String (Unit)', () => {
      * Check string#numToStr(tmpStr) 
      */
     describe('#numToStr(num)', () => {
-        it("should return zero", () => {
+        it('should return zero', () => {
             expect(stringz.numToStr(0)).toBe('zero');
         });
-        it("should return zero", () => {
+        it('should return zero', () => {
             expect('0'.numToStr()).toBe('zero');
         });
         it('should return a string', () => {
