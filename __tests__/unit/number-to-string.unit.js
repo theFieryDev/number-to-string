@@ -28,7 +28,7 @@ describe('Number2String (Unit)', () => {
      */
     describe('#numToStr(num)', () => {
         it('should return zero', () => {
-            expect(stringz.numToStr(0)).toBe('zero');
+            expect(n2s.numToStr(0)).toBe('zero');
         });
         it('should return zero', () => {
             expect('0'.numToStr()).toBe('zero');
